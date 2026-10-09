@@ -61,8 +61,8 @@ class PTA_Data:
                 timfiles = None,
                 parfiles = None,
                 noise_dict = None,
-                psr_dists_dict = {},
-                dm_ref_freq = 1400): 
+                dm_ref_freq = 1400,
+                psr_dists_dict = {}):
         """The constructor for the PTA_Data class
 
         This class is intended to hold all the static data attributes of the PTA 
